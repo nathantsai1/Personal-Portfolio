@@ -1,0 +1,47 @@
+/* key words: navigation, transitions, div container, decoration */
+
+/* navigation */
+.navbar {
+    background-color: #2F3C7E;
+    overflow: hidden;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(5, 1fr);
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+.navlist {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    width: 20%;
+    height: 60px;
+    font-size: 25px;
+}
+
+/* div container */
+.body {
+    background-color: #FBEAEB;
+}
+
+/* decoration */
+.blank {
+    text-decoration: none;
+}
+
+.black {
+    color: #101820;
+}
+
+.yellow {
+    color: #efbf04;
+}
+/* transitions */
+@keyframes fadeIn {
+    from{ opacity: 0; }
+    to { opacity: 1; }
+  }
