@@ -40,6 +40,16 @@
 .yellow {
     color: #efbf04;
 }
+
+.bg_white {
+    background-color: #3C4142;
+    height: 60px;
+}
+
+.bg_blue {
+    background-color: #8AAAE5;
+    height: 60px
+}
 /* transitions */
 @keyframes fadeIn {
     from{ opacity: 0; }
